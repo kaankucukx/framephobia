@@ -774,7 +774,6 @@
 			"scope": "entity.other.attribute-name.id",
 			"settings": {
 				"foreground": "#52ADF2",
-				"fontStyle": "normal"
 			}
 		},
 		{
@@ -782,7 +781,6 @@
 			"scope": "entity.other.attribute-name.class.css",
 			"settings": {
 				"foreground": "#D8985F",
-				"fontStyle": "normal"
 			}
 		},
 		{
@@ -974,7 +972,6 @@
 			"name": "Illegal",
 			"scope": "invalid.illegal",
 			"settings": {
-				"background": "#e05252",
 				"foreground": "#FFFFFF"
 			}
 		},
@@ -982,7 +979,6 @@
 			"name": "Broken",
 			"scope": "invalid.broken",
 			"settings": {
-				"background": "#e05252",
 				"foreground": "#FFFFFF"
 			}
 		},
@@ -990,7 +986,6 @@
 			"name": "Deprecated",
 			"scope": "invalid.deprecated",
 			"settings": {
-				"background": "#d27b53",
 				"foreground": "#FFFFFF"
 			}
 		},
@@ -998,7 +993,6 @@
 			"name": "Unimplemented",
 			"scope": "invalid.unimplemented",
 			"settings": {
-				"background": "#747369",
 				"foreground": "#FFFFFF"
 			}
 		},
@@ -1383,19 +1377,56 @@
 				"foreground": "#b1b1b1"
 			}
 		},
-		{
-			"name": "Comps",
-			"scope": [
-				"text.html.vue-html",
-				"meta.tag.other.html text.html.vue",
-				"entity.name.tag.style.html",
-				"entity.name.tag.other.html",
-				"entity.name.tag.template.html"
-			],
-			"settings": {
-				"foreground": "#8146FE"
-			}
-		},
+	{
+		"name": "Comps",
+		"scope": [
+			"text.html.vue-html",
+			"meta.tag.other.html text.html.vue",
+			"entity.name.tag.style.html",
+			"entity.name.tag.other.html",
+			"entity.name.tag.template.html"
+		],
+		"settings": {
+			"foreground": "#8146FE"
+		}
+	},
+	{
+		"name": "Angular HTML Component",
+		"scope": [
+			"meta.tag.custom"
+		],
+		"settings": {
+			"foreground": "#8146FE"
+		}
+	},
+	{
+		"name": "Angular UNRECOGNIZED Attribute ex.fxFlex",
+		"scope": [
+			"meta.attribute.unrecognized"
+		],
+		"settings": {
+			"foreground": "#ffcc00"
+		}
+	},
+	{
+		"name": "Default HTML container and inline",
+		"scope": [
+			"meta.tag",
+			"meta.tag.inline"
+		],
+		"settings": {
+			"foreground": "#505050"
+		}
+	},
+	{
+		"name": "Angular Inline Interpretion",
+		"scope": [
+			"text.html.derivative "
+		],
+		"settings": {
+			"foreground": "#e67786"
+		}
+	},
 		{
 			"name": "Vue :Props",
 			"scope": [
