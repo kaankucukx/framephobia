@@ -2,7 +2,7 @@
     "name": "framephobia",
     "displayName": "Framephobia",
     "description": "Framephobia is a crossframework compatible theme for Vue - React and Angular.",
-    "version": "0.3.0",
+    "version": "0.4.0",
     "publisher": "kaankucuk",
     "engines": {
         "vscode": "^1.27.0"
