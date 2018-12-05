@@ -651,7 +651,7 @@
 			"name": "Type Name",
 			"scope": "entity.name.type",
 			"settings": {
-				"foreground": "#94a200",
+				"foreground": "#9e9e9e",
 				"fontStyle": "italic bold"
 			}
 		},
