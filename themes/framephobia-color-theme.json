@@ -1,5 +1,5 @@
 {
-	"name": "Vuesual VS Code Dark Theme",
+	"name": "Framephobia",
 	"type": "dark",
 	"colors": {
 		"focusBorder": "#21252b",
@@ -85,6 +85,89 @@
 		"scrollbarSlider.hoverBackground": "#23EBD0",
 		"scrollbar.shadow": "#19191f",
 		"editorBracketMatch.background": "#515a6b",
+		"editorIndentGuide.background1": "#ffffff",
+		"editorIndentGuide.activeBackground1": "#c8c8c859",
+		"button.foreground": "#ffffff",
+		"button.hoverBackground": "#8146FE",
+		"badge.foreground": "#d7dae0",
+		"input.foreground": "#d7dae0",
+		"input.border": "#21252b",
+		"input.placeholderForeground": "#495162",
+		"dropdown.foreground": "#d7dae0",
+		"textLink.foreground": "#52ADF2",
+		"textLink.activeForeground": "#23EBD0",
+		"progressBar.background": "#23EBD0",
+		"widget.shadow": "#00000066",
+		"editorWidget.border": "#181a1f",
+		"editorWarning.foreground": "#D8985F",
+		"editorInfo.foreground": "#52ADF2",
+		"editorLink.activeForeground": "#52ADF2",
+		"editorCodeLens.foreground": "#495162",
+		"editorInlayHint.background": "#21252b",
+		"editorInlayHint.foreground": "#737984",
+		"editorStickyScroll.background": "#19191f",
+		"editorStickyScrollHover.background": "#1c1c23",
+		"editorOverviewRuler.border": "#19191f",
+		"editorBracketHighlight.foreground1": "#FFCC00",
+		"editorBracketHighlight.foreground2": "#D55FDE",
+		"editorBracketHighlight.foreground3": "#52ADF2",
+		"editorBracketHighlight.foreground4": "#23EBD0",
+		"editorBracketHighlight.foreground5": "#EF596F",
+		"editorBracketHighlight.foreground6": "#D8985F",
+		"editorBracketHighlight.unexpectedBracket.foreground": "#c24038",
+		"editorGutter.addedBackground": "#89CA78",
+		"editorGutter.modifiedBackground": "#52ADF2",
+		"editorGutter.deletedBackground": "#EF596F",
+		"gitDecoration.addedResourceForeground": "#89CA78",
+		"gitDecoration.modifiedResourceForeground": "#D8985F",
+		"gitDecoration.deletedResourceForeground": "#EF596F",
+		"gitDecoration.untrackedResourceForeground": "#23EBD0",
+		"gitDecoration.ignoredResourceForeground": "#495162",
+		"gitDecoration.conflictingResourceForeground": "#D55FDE",
+		"list.errorForeground": "#EF596F",
+		"list.warningForeground": "#D8985F",
+		"peekView.border": "#8146FE",
+		"peekViewEditor.background": "#19191f",
+		"peekViewResult.background": "#15151a",
+		"peekViewTitle.background": "#21252b",
+		"breadcrumb.background": "#19191f",
+		"breadcrumb.foreground": "#737984",
+		"breadcrumb.focusForeground": "#d7dae0",
+		"menu.background": "#21252b",
+		"menu.foreground": "#d7dae0",
+		"menu.selectionBackground": "#8146FE",
+		"menu.selectionForeground": "#ffffff",
+		"quickInput.background": "#1d1f23",
+		"quickInputList.focusBackground": "#8146FE",
+		"notifications.background": "#21252b",
+		"notifications.border": "#181a1f",
+		"panel.background": "#19191f",
+		"panel.border": "#242629",
+		"panelTitle.activeBorder": "#23EBD0",
+		"panelTitle.activeForeground": "#d7dae0",
+		"panelTitle.inactiveForeground": "#495162",
+		"sideBar.border": "#15151a",
+		"activityBar.border": "#15151a",
+		"activityBar.activeBorder": "#23EBD0",
+		"statusBar.border": "#15151a",
+		"titleBar.border": "#15151a",
+		"statusBarItem.remoteBackground": "#8146FE",
+		"statusBarItem.remoteForeground": "#ffffff",
+		"terminal.background": "#19191f",
+		"terminalCursor.foreground": "#FFCC00",
+		"terminal.selectionBackground": "#3D0863",
+		"terminal.ansiRed": "#EF596F",
+		"terminal.ansiMagenta": "#D55FDE",
+		"terminal.ansiCyan": "#2BBAC5",
+		"terminal.ansiWhite": "#AAB1C0",
+		"terminal.ansiBrightBlack": "#495162",
+		"terminal.ansiBrightRed": "#F03A52",
+		"terminal.ansiBrightGreen": "#89CA78",
+		"terminal.ansiBrightYellow": "#FFCC00",
+		"terminal.ansiBrightBlue": "#52ADF2",
+		"terminal.ansiBrightMagenta": "#C679DD",
+		"terminal.ansiBrightCyan": "#57B6C2",
+		"terminal.ansiBrightWhite": "#d7dae0"
 	},
 	"tokenColors": [
 		{
@@ -547,13 +630,6 @@
 			}
 		},
 		{
-			"name": "Delimiters",
-			"scope": "none",
-			"settings": {
-				"foreground": "#A6B2C0"
-			}
-		},
-		{
 			"name": "Operators",
 			"scope": "keyword.operator",
 			"settings": {
@@ -763,20 +839,6 @@
 			}
 		},
 		{
-			"name": "Floats",
-			"scope": "none",
-			"settings": {
-				"foreground": "#D8985F"
-			}
-		},
-		{
-			"name": "Boolean",
-			"scope": "none",
-			"settings": {
-				"foreground": "#D8985F"
-			}
-		},
-		{
 			"name": "Constants",
 			"scope": "constant",
 			"settings": {
@@ -805,14 +867,14 @@
 			"name": "Attribute IDs",
 			"scope": "entity.other.attribute-name.id",
 			"settings": {
-				"foreground": "#52ADF2",
+				"foreground": "#52ADF2"
 			}
 		},
 		{
 			"name": "Attribute class",
 			"scope": "entity.other.attribute-name.class.css",
 			"settings": {
-				"foreground": "#D8985F",
+				"foreground": "#D8985F"
 			}
 		},
 		{
@@ -820,13 +882,6 @@
 			"scope": "meta.selector",
 			"settings": {
 				"foreground": "#D55FDE"
-			}
-		},
-		{
-			"name": "Values",
-			"scope": "none",
-			"settings": {
-				"foreground": "#D2945D"
 			}
 		},
 		{
@@ -1403,13 +1458,6 @@
 			}
 		},
 		{
-			"name": "TEXT HTML",
-			"scope": [],
-			"settings": {
-				"foreground": "#b1b1b1"
-			}
-		},
-		{
 			"name": "Comps",
 			"scope": [
 				"text.html.vue-html",
@@ -1453,7 +1501,7 @@
 		{
 			"name": "Angular Inline Interpretion",
 			"scope": [
-				"text.html.derivative "
+				"text.html.derivative"
 			],
 			"settings": {
 				"foreground": "#e67786"
@@ -1462,7 +1510,6 @@
 		{
 			"name": "Vue :Props",
 			"scope": [
-				"entity.other.attribute - name.html",
 				"meta.directive.vue",
 				"text.html.vue - html"
 			],
@@ -1496,7 +1543,7 @@
 				"meta.arrow",
 				"meta.var.expr",
 				"meta.block",
-				"meta.function.expression",
+				"meta.function.expression"
 			],
 			"settings": {
 				"foreground": "#ffcc00"
@@ -1533,5 +1580,6 @@
 				"foreground": "#505050"
 			}
 		}
-	]
+	],
+	"semanticHighlighting": false
 }

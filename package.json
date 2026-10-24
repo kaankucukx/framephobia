@@ -1,20 +1,41 @@
 {
     "name": "framephobia",
     "displayName": "Framephobia",
-    "description": "Framephobia is a crossframework compatible theme for Vue - React and Angular.",
-    "version": "0.4.0",
+    "description": "A high-contrast dark theme tuned for component-driven code: Vue, React and Angular templates, directives and TypeScript.",
+    "version": "0.5.0",
     "publisher": "kaankucuk",
+    "author": {
+        "name": "Kağan Küçük"
+    },
+    "license": "MIT",
     "engines": {
         "vscode": "^1.27.0"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/kaankucukx/framephobia"
+        "url": "https://github.com/kaankucukx/framephobia.git"
     },
+    "bugs": {
+        "url": "https://github.com/kaankucukx/framephobia/issues"
+    },
+    "homepage": "https://github.com/kaankucukx/framephobia#readme",
     "categories": [
         "Themes"
     ],
+    "keywords": [
+        "theme",
+        "dark theme",
+        "color theme",
+        "vue",
+        "react",
+        "angular",
+        "typescript"
+    ],
     "icon": "icon.png",
+    "galleryBanner": {
+        "color": "#19191f",
+        "theme": "dark"
+    },
     "contributes": {
         "themes": [
             {
