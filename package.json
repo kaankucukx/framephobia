@@ -2,7 +2,7 @@
     "name": "framephobia",
     "displayName": "Framephobia",
     "description": "A high-contrast dark theme tuned for component-driven code: Vue, React and Angular templates, directives and TypeScript.",
-    "version": "0.5.0",
+    "version": "0.6.0",
     "publisher": "kaankucuk",
     "author": {
         "name": "Kağan Küçük"

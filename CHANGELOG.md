@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.5.0
+## 0.6.0
 
 - Fill missing workbench colors from the existing palette: panel, terminal background and full ANSI set, bracket pair colorization, git decorations, gutter diff markers, inlay hints, sticky scroll, breadcrumbs, menus, quick input, notifications and peek view.
 - Add `editorIndentGuide.background1` keys for current VS Code releases.
@@ -8,6 +8,10 @@
 - Fix the theme name shown in the theme file (was a leftover scaffold name).
 - Make the theme file strict JSON (remove trailing commas) and drop rules that could never match.
 - Square marketplace icon, MIT license, refreshed README and package metadata.
+
+## 0.5.0
+
+- Marketplace release (December 2018).
 
 ## 0.4.0
 
